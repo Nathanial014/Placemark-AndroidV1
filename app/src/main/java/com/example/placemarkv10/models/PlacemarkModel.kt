@@ -7,6 +7,7 @@ package org.setu.placemark.models
 data class PlacemarkModel(
     var id: Long = 0L,
     val title: String = "",
-    val description: String = ""
-    // TODO add more here
+    val description: String = "",
+    val x: Double = 0.0,
+    val y: Double = 0.0
 )
